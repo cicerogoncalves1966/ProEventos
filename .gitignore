@@ -386,6 +386,17 @@ FodyWeavers.xsd
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
+.history/*
+
+#misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
 
 # Local History for Visual Studio Code
 .history/
@@ -475,3 +486,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# System files
+.DS_Store
+Thumbs.db
+
+#Excluindo DB
+*.db
+*.db-shm
+*.db-wal
